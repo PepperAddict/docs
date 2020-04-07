@@ -2,19 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Install Plugin — Anima</title>
+        <title>Links — Anima</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png" />
         <meta name="description" content="Design to code, automated.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Install Plugin — Anima">
+        <meta property="og:title" content="Links — Anima">
         <meta property="og:description" content="Design to code, automated.">
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Install Plugin">
+        <meta name="twitter:title" content="Links">
         <meta name="twitter:description" content="Design to code, automated.">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -83,7 +83,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/v3/sketch/prototype/02-install.html" class="sidebar-link current">Install Plugin</a>
+                    <a href="/v3/sketch/prototype/install.html" class="sidebar-link">Install Plugin</a>
                 </li>
                 
             
@@ -91,7 +91,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/v3/sketch/prototype/03-links.html" class="sidebar-link">Links</a>
+                    <a href="/v3/sketch/prototype/links.html" class="sidebar-link current">Links</a>
                 </li>
                 
             
@@ -107,15 +107,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/v3/sketch/prototype/03-forms.html" class="sidebar-link">Text Input & Forms</a>
-                </li>
-                
-            
-                
-                
-                
-                <li>
-                    <a href="/v3/sketch/prototype/embed-code.html" class="sidebar-link">Embed Code</a>
+                    <a href="/v3/sketch/prototype/hover.html" class="sidebar-link">Hover Effects</a>
                 </li>
                 
             
@@ -131,23 +123,31 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/v3/sketch/prototype/hover.html" class="sidebar-link">Hover Effects</a>
-                </li>
-                
-            
-                
-                
-                
-                <li>
-                    <a href="/v3/sketch/prototype/03-videos.html" class="sidebar-link">Videos & GIFs</a>
-                </li>
-                
-            
-                
-                
-                
-                <li>
                     <a href="/v3/sketch/prototype/fixed-position.html" class="sidebar-link">Fixed Position</a>
+                </li>
+                
+            
+                
+                
+                
+                <li>
+                    <a href="/v3/sketch/prototype/forms.html" class="sidebar-link">Text Input & Forms</a>
+                </li>
+                
+            
+                
+                
+                
+                <li>
+                    <a href="/v3/sketch/prototype/videos.html" class="sidebar-link">Videos & GIFs</a>
+                </li>
+                
+            
+                
+                
+                
+                <li>
+                    <a href="/v3/sketch/prototype/embed-code.html" class="sidebar-link">Embed Code</a>
                 </li>
                 
             
@@ -178,21 +178,72 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 
 <div class="content prototype with-sidebar ">
     
-      <h1>Install Plugin</h1>
+      <h1>Links</h1>
     
-    <h2 id="Install-the-Anima-Toolkit"><a href="#Install-the-Anima-Toolkit" class="headerlink" title="Install the Anima Toolkit"></a>Install the Anima Toolkit</h2><ol>
-<li>Install the latest version of <a href="https://www.sketchapp.com/updates/" target="_blank" rel="external">Sketch App</a></li>
-<li>Download the latest <a href="https://www.animaapp.com/changelog" target="_blank" rel="external">AnimaToolkit.sketchplugin</a></li>
-<li>Unzip file and double click the unzipped file to install</li>
-<li>Restart Sketch after installing</li>
+    <p> <strong>Prototype</strong> enables you to create both internal and external links between artboards (webpages).</p>
+<p>There are 4 types of <strong>Links</strong>:</p>
+<ol>
+<li><strong>Page Link</strong> - A link between different artboard </li>
+<li><strong>Anchor Links</strong> - A link within the same artboard </li>
+<li><strong>External Links</strong> - A link to an external website</li>
+<li><strong>Overlay Links</strong> - A link that displays an artboard (webpage)  over the existing one it was clicked from</li>
 </ol>
-<p><img src="http://f.cl.ly/items/3X0d3j0W222x2M3G2823/AnimaToolkit%203.0.png" alt="Anima Installation Notification"></p>
-<h3 id="Compatibility-Note"><a href="#Compatibility-Note" class="headerlink" title="Compatibility Note"></a>Compatibility Note</h3><p>Please make sure that you are always using the latest versions of <a href="https://www.sketchapp.com/updates/" target="_blank" rel="external">Sketch</a> and <a href="https://www.animaapp.com/changelog" target="_blank" rel="external">Anima</a> to avoid any issues.</p>
+<h2 id="Artboard-Links"><a href="#Artboard-Links" class="headerlink" title="Artboard Links"></a>Artboard Links</h2><p>In <strong>Prototype,</strong> each artboard represents a webpage. You can create <strong>Links</strong> to connect different artboards (webpages):</p>
+<ol>
+<li>Select the layer which will trigger the navigation event (Usually this will be a button)</li>
+<li>Click <strong>Links</strong>  in the <strong>Flow</strong> section of <strong>Prototype</strong></li>
+<li>Select the target artboard  (webpage)</li>
+</ol>
+<p><img src="http://f.cl.ly/items/1L3s422J2y252B1D0Q3x/Links.gif" alt="Creating Page Link"></p>
+<p>❗️If the Artboard is in another Sketch Page, use Sketch native <a href="https://www.sketch.com/docs/prototyping/links" target="_blank" rel="external">Prototype Links</a> and select the Page from the Target option.</p>
+<h2 id="Anchor-Links"><a href="#Anchor-Links" class="headerlink" title="Anchor Links"></a>Anchor Links</h2><p>You can create <strong>Links</strong> to a different section in the same artboard (webpage).</p>
+<p>To create an <strong>Anchor Link</strong>:</p>
+<ol>
+<li>Select the layer which will trigger the navigation event</li>
+<li>Click <strong>Links</strong>  in the <strong>Flow</strong> section of <strong>Prototype</strong></li>
+<li>Select the target <strong>Layer</strong> in the Layers List  (webpage) </li>
+</ol>
+<p>❗️Note: This does not work with <strong>Groups</strong>, only <strong>Layers</strong> &amp; <strong>Symbols</strong></p>
+<p><img src="http://f.cl.ly/items/2O1v0q192u2C3e263M44/%5B1c51a085b8f3903b1adeeac91771aacb%5D_Screen%20Recording%202019-01-23%20at%2006.25%20PM.gif" alt="Anchor Links"></p>
+<h2 id="External-Links"><a href="#External-Links" class="headerlink" title="External Links"></a>External Links</h2><p>Many times you want to create links to external websites that aren’t a part of your website, for example,  links to Facebook, Twitter, App Stores, etc..</p>
+<p>To create an <strong>External Link</strong>:</p>
+<ol>
+<li>Select the layer which will trigger the navigation event. Usually this will be a text layer or a button</li>
+<li>Click <strong>Links</strong>  in the <strong>Flow</strong> section of <strong>Prototype</strong></li>
+<li>Point arrow and click <strong>External Link</strong> button at the top bar</li>
+<li>Enter the URL for the external website or enter ‘mailto: info@example.com’ to link to an email address</li>
+</ol>
+<p><img src="http://f.cl.ly/items/2X2a401i0E0Q3612461o/[97f25f716beb06086dc5f2e469aba5d0]_External%20Link.gif" alt="External Link"></p>
+<h2 id="Removing-Links"><a href="#Removing-Links" class="headerlink" title="Removing Links"></a>Removing Links</h2><p>If you created a link and now you want to remove it:</p>
+<ol>
+<li>Select the <strong>Layer</strong> with the link you want to remove</li>
+<li>Click the <strong>Trash Icon</strong> in the <strong>Links</strong> section</li>
+</ol>
+<p><img src="http://f.cl.ly/items/0N1a1u1V0Q2v46220d2F/Remove%20links.gif" alt="Remove Links"></p>
+<h2 id="Overlays"><a href="#Overlays" class="headerlink" title="Overlays"></a>Overlays</h2><p>An <strong>Overlay</strong> is a link type that lets you display another artboard on top of the existing one rather than as a separate destination screen.  </p>
+<p><strong>Overlays</strong> can be used for modal windows, drop-down menus, pop-up notifications, all without leaving your current screen.</p>
+<p>Creating an <strong>Overlay</strong> is as easy as creating two links:</p>
+<ol>
+<li>Select the <strong>Layer</strong> that will trigger the <strong>Overlay</strong> </li>
+<li>With <strong>Links</strong> , connect it to the <strong>Overlay</strong> artboard</li>
+<li>Check the <strong>Overlay</strong> box in <strong>Links</strong></li>
+<li>Now, select the <strong>Overlay</strong> component and link it to the “<strong>Dismiss Overlay</strong>“ option at the top menu bar</li>
+<li>Change the <strong>Overlay</strong> artboard background color to transparent by moving the transparency slide to the left. Make sure that “<em>Include in export</em>“ is checked in</li>
+</ol>
+<blockquote>
+<p><strong>ℹ️ Overlay Tips:</strong></p>
+<ul>
+<li>For a cooler <strong>Overlay</strong> effect, set its artboard background color to 70% Transparent</li>
+</ul>
+</blockquote>
+<p><img src="http://f.cl.ly/items/0c160d0U141z3R1g0B2S/Overlay%20Background%20color.png" alt="Transparent Overlay Background"></p>
+<p><img src="https://downloads.intercomcdn.com/i/o/96227182/ddf6773f7326d1c2e943fe1c/HF_Overlay.gif" alt=""></p>
+<p><a href="http://bit.ly/Anima-Dashboard-Tutorial" target="_blank" rel="external">[Download]</a> this High-Fidelity Prototype Sketch file to try it yourself.</p>
 
     
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
-      <a href="https://github.com/AnimaApp/docs/blob/master/src/v3/sketch/prototype/02-install.md" target="_blank">
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v3/sketch/prototype/links.md" target="_blank">
         Edit this page on Github!
       </a>
     </div>
@@ -221,7 +272,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
           var match = window.location.pathname.match(/^\/(v\d+)/)
           var version = match ? match[1] : 'v1'
           docsearch({
-            apiKey: 'a0310ab013b58805afb3d17bc12cd527',
+            apiKey: '27d2ce1200d9ef41114a96b1196f9622',
             indexName: 'animaapp',
             debug: true,
             inputSelector: selector,
