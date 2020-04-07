@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <title>Manage Website — Anima</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png" />
@@ -34,6 +35,9 @@ for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElemen
 mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 
         </script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+        <link rel="stylesheet" href="/css/search.css">
     </head>
     <body class="">        <div id="mobile-bar" >
             <a class="menu-button"></a>
@@ -72,15 +76,15 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
         <ul class="menu-root">
             
                 
-            
-                
-            
-                
                 
                 
                 <li>
                     <a href="/v2/launchpad/index.html" class="sidebar-link">Launchpad</a>
                 </li>
+                
+            
+                
+            
                 
             
                 
@@ -98,13 +102,13 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
+            
+                
                 
                 
                 <li>
                     <a href="/v2/launchpad/breakpoints.html" class="sidebar-link">Breakpoints</a>
                 </li>
-                
-            
                 
             
                 
@@ -120,17 +124,17 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
-            
-                
-            
-                
-            
-                
                 
                 
                 <li>
                     <a href="/v2/launchpad/03-forms.html" class="sidebar-link">Forms</a>
                 </li>
+                
+            
+                
+            
+                
+            
                 
             
                 
@@ -156,13 +160,17 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
-            
-                
                 
                 
                 <li>
                     <a href="/v2/launchpad/04-publish.html" class="sidebar-link">Publish Website</a>
                 </li>
+                
+            
+                
+            
+                
+            
                 
             
                 
@@ -188,17 +196,11 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
-            
-                
-            
-                
                 
                 
                 <li>
                     <a href="/v2/launchpad/widgets.html" class="sidebar-link">Widgets (Embed HTML)</a>
                 </li>
-                
-            
                 
             
                 
@@ -232,6 +234,8 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
+            
+                
                 
                 
                 <li>
@@ -240,15 +244,15 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
             
                 
+            
+                
+            
+                
                 
                 
                 <li>
                     <a href="/v2/launchpad/faq.html" class="sidebar-link">FAQ</a>
                 </li>
-                
-            
-                
-            
                 
             
                 
@@ -309,9 +313,9 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
     
       <div class="guide-links">
         
-          <span>← <a href="/v1/launchpad/04-publish.html">Publish Website</a></span>
-        
           <span>← <a href="/latest/launchpad/04-publish.html">Publish Website</a></span>
+        
+          <span>← <a href="/v1/launchpad/04-publish.html">Publish Website</a></span>
         
           <span>← <a href="/v2/launchpad/04-publish.html">Publish Website</a></span>
         
@@ -336,26 +340,21 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
         <script src="/js/common.js"></script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/css/search.css">
-        <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
-        <script>
-        [
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+        <script type="text/javascript"> 
+            [
           '#search-query-nav',
           '#search-query-sidebar'
-        ].forEach(function (selector) {
-          if (!document.querySelector(selector)) return
-          // search index defaults to v1
-          var match = window.location.pathname.match(/^\/(v\d+)/)
-          var version = match ? match[1] : 'v1'
-          docsearch({
-            apiKey: '27d2ce1200d9ef41114a96b1196f9622',
-            indexName: 'animaapp',
-            debug: true,
-            inputSelector: selector,
-          })
-        })
+            ].forEach(function (selector) {
+                docsearch({
+                    apiKey: 'a0310ab013b58805afb3d17bc12cd527',
+                    indexName: 'animaapp',
+                    inputSelector: selector,
+                    debug: false 
+                 });
+            });
         </script>
+       
 
         <!-- fastclick -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
