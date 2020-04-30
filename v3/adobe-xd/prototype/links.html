@@ -143,7 +143,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/v3/adobe-xd/prototype/videos.html" class="sidebar-link">Videos & GIFs</a>
+                    <a href="/v3/adobe-xd/prototype/videos.html" class="sidebar-link">Videos/GIF/Lottie</a>
                 </li>
                 
             
@@ -168,32 +168,24 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
     
       <h1>Links</h1>
     
-    <p>In <strong>Adobe XD,</strong> each artboard represents a webpage. You can create <strong>Links</strong> to connect different artboards (webpages).</p>
-<p>There are four types of <strong>Links</strong>:</p>
-<ol>
-<li><strong>Internal Link</strong> - A link between different artboard </li>
-<li><strong>External Links</strong> - A link to an external website</li>
-<li><strong>Back Links</strong> - A link that displays the previous screen</li>
-<li><strong>Overlays</strong> - A link that displays an artboard (webpage) over the existing one it was clicked from</li>
-</ol>
-<h2 id="Internal-Links"><a href="#Internal-Links" class="headerlink" title="Internal Links"></a>Internal Links</h2><p>Internal Links are links between artboards of the same Adobe XD document.</p>
-<p>There are two ways to create Internal Links:</p>
-<p><strong>1. Using Anima Links </strong></p>
-<ol>
-<li>Select the layer that will trigger the navigation event (i.e.: a button or navigation link)</li>
-<li>Click <strong>Link</strong>  in the <strong>Flow</strong> section</li>
-<li>Select <strong>Internal Link</strong> in the Link Type drop-down menu (set by Default)</li>
-<li>Select the target artboard in the drop-down menu</li>
-</ol>
-<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/4gumdjR0/Internal%20Link%402x.png?v=24a69fdcd698119cc98c028ed32b3787" alt="Creating an Internal link" title="Creating an Internal link"></p>
-<p><strong>2. Using Adobe XD Tap Transitions* </strong></p>
-<p>When you create a <strong>Tap</strong> trigger <strong>Transition</strong> using Adobe XD, it automatically populates as an Anima Internal Link.</p>
-<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/mXuq0DYB/Adobe%20Internal%20Links%402x.png?v=e0cce96a4691d5641f1932fcf095c18f" alt="Creating an Internal link with Adobe" title="Creating an Internal link with Adobe Links"></p>
-<blockquote>
-<p>❗️IMPORTANT</p>
+    <p>In <strong>Adobe XD,</strong> each artboard represents a webpage that can be connected to each other or other external websites via <strong>Links</strong>.</p>
+<p>Anima supports the following <strong>Adobe XD</strong> native Prototype Interaction features:</p>
 <ul>
-<li>Only Transition and Overlays triggers are supported</li>
-<li>Transition and Overlay Animation is not supported</li>
+<li><strong>Trigger</strong> - Tap</li>
+<li><strong>Action</strong> - Transition, Overlay, Previous Artboard</li>
+</ul>
+<p>Anima also includes:</p>
+<ul>
+<li><strong>External Links</strong> - A link to an external website</li>
+<li><strong>Anchor Links</strong> - A type of link that directs the user to a specific section of the same artboard (webpage).</li>
+</ul>
+<h2 id="Adobe-XD-Links"><a href="#Adobe-XD-Links" class="headerlink" title="Adobe XD Links"></a>Adobe XD Links</h2><p>To connect artboards in the same Adobe XD document, use the <strong>Tap</strong> action and <strong>Transition</strong> type:</p>
+<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/xQuWA42W/XD%20Links%402x.png?v=5bb8b7cdd5d48fff14fec0ab7c79dd71" alt="Creating an Internal link with Adobe" title="Creating an Internal link with Adobe Links"></p>
+<blockquote>
+<p>❗️* IMPORTANT</p>
+<ul>
+<li>Only <strong>Tap</strong> triggers and <strong>Transition</strong>, <strong>Overlays</strong>, <strong>Previous Arboard</strong> actions types are supported</li>
+<li>Animation, Easing, and Duration settings are not currently supported</li>
 </ul>
 </blockquote>
 <h2 id="External-Links"><a href="#External-Links" class="headerlink" title="External Links"></a>External Links</h2><p>Many times you want to create links to external websites that aren’t a part of your website, for example,  links to Facebook, Twitter, App Stores, etc..</p>
@@ -204,47 +196,41 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 <li>Select <strong>External Link</strong> from the Link Type drop-down menu</li>
 <li>Enter the full URL for the external website or enter ‘mailto: info@example.com’ to link to an email address</li>
 </ol>
-<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/yAuvdYz1/External%20Link%402x.png?v=6fa5f42492fb6b77ffa0c36880932395" alt="External Link" title="Creating an External link"></p>
+<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/04uPOGwd/External%20Link%402x.png?v=a9f198f1e5d2462dde0db64e6306cb4e" alt="External Link" title="Creating an External link"></p>
 <h2 id="Overlays"><a href="#Overlays" class="headerlink" title="Overlays"></a>Overlays</h2><p>An <strong>Overlay</strong> is a link type that lets you display another artboard on top of the existing one rather than as a separate destination screen.  </p>
-<p>There are two ways to create an Overlay:</p>
-<p><strong>1. Using Anima Links </strong></p>
-<ol>
-<li>Select the layer that will trigger the <strong>Overlay</strong></li>
-<li>Click <strong>Link</strong>  in the <strong>Flow</strong> section</li>
-<li>Select <strong>Overlay</strong> in the Link Type drop-down menu</li>
-<li>From the Destination drop-down, select the artboard that you want to Overlay on top</li>
-</ol>
-<p><strong>2. Using Adobe XD Tap Overlay* </strong></p>
-<p>When you create a <strong>Tap</strong> trigger <strong>Overlay</strong> using Adobe XD, it automatically populates as an Anima Internal Link.</p>
+<p><strong>Using Adobe XD Prototype Triggers* </strong></p>
+<p>When you create a <strong>Tap</strong> trigger <strong>Overlay</strong> using Adobe XD, it automatically populates as an Anima <strong>Overlay</strong>.</p>
 <blockquote>
-<p>❗️IMPORTANT</p>
+<p>❗️*IMPORTANT</p>
 <ul>
 <li>Only Transition and Overlays triggers are supported</li>
-<li>Transition and Overlay Animation is not supported</li>
+<li>Animation, Easing, and Duration settings are not currently supported</li>
 <li>Overlay placement is currently fixed center</li>
 </ul>
 </blockquote>
-<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/9ZuA5KmD/Adobe%20Overlay%402x.png?v=5f4128948476fbce6c88807f662db972" alt="Creating an Overlay with Adobe" title="Creating an Overlay with Adobe"></p>
-<!--## Anchor Links
-
-You can create **Links** to a different section in the same artboard (webpage).
-
-To create an **Anchor Link**:
-1. Select the layer which will trigger the navigation event*
-2. Click **Link**  in the **Flow** section
-3. Select **External Link** from the Link Type drop-down menu
-4. With your mouse, select the layer that will act as Anchor
-5. Click done to apply it.
-
-❗️Note: This does not work with **Group** folders, only **Layers** & **Symbols**
-
-![Anchor Links](http://f.cl.ly/items/2O1v0q192u2C3e263M44/%5B1c51a085b8f3903b1adeeac91771aacb%5D_Screen%20Recording%202019-01-23%20at%2006.25%20PM.gif)
--->
-<h2 id="Removing-Links"><a href="#Removing-Links" class="headerlink" title="Removing Links"></a>Removing Links</h2><p>If you created a link and now you want to remove it:</p>
+<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/WnuGrene/Adobe%20Overlay%402x.png?v=1c40a79d359450c44fb655eea5d586ca" alt="Creating an Overlay with Adobe" title="Creating an Overlay with Adobe"></p>
+<h2 id="Anchor-Links"><a href="#Anchor-Links" class="headerlink" title="Anchor Links"></a>Anchor Links</h2><p>You can create <strong>Links</strong> to a different section in the same artboard (webpage).</p>
+<p>To create an <strong>Anchor Link</strong>:</p>
+<ol>
+<li>Select the layer which will trigger the navigation event*</li>
+<li>Click <strong>Link</strong>  in the <strong>Flow</strong> section</li>
+<li>Select <strong>Anchor Linkk</strong> from the Link Type drop-down menu</li>
+<li>With your mouse, select the layer that will act as Anchor</li>
+<li>Click <strong>Done</strong> to apply it</li>
+</ol>
+<p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/9ZuE02Eo/anchor-link-Gif-ps.gif?v=8dec6c392485e58c784b61328d7b9c82" alt="Anima Anchor Links"></p>
+<blockquote>
+<p>❗️IMPORTANT</p>
+<ul>
+<li>Anchor Links can only be created to on the same artboard.</li>
+</ul>
+</blockquote>
+<h2 id="Edit-or-Remove-Links"><a href="#Edit-or-Remove-Links" class="headerlink" title="Edit or Remove Links"></a>Edit or Remove Links</h2><p>If you created an Anima <strong>Link</strong> and now you want to remove it:</p>
 <ol>
 <li>Select the <strong>Layer</strong> with the link you want to remove</li>
 <li>Click the <strong>Trash Icon</strong> in the <strong>Link</strong> section</li>
 </ol>
+<p>Adobe XD Triggers and actions can be edited or deleted in Prototype mode.</p>
 <p><img src="https://p46.f4.n0.cdn.getcloudapp.com/items/YEuALpY0/Remove%20Link%402x.png?v=67dd7efa77421dc5fba7f2e7c365dd16" alt="Remove Links"></p>
 
     
