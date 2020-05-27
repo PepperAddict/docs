@@ -560,6 +560,7 @@ body.docs #nav {
   display: none;
 }
 #hero {
+  margin-top: 80px;
   padding: 50px 40px;
   background-color: #fff;
 }
